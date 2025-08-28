@@ -6,5 +6,6 @@
 #include "structs.h"
 
 #include "app.h"
-#include "draw.h"
-#include "input.h"
+
+void prepareScene(App *app);
+void presentScene(App *app);

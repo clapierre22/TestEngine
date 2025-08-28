@@ -5,6 +5,4 @@
 #include "defs.h"
 #include "structs.h"
 
-#include "app.h"
-#include "draw.h"
-#include "input.h"
+void doInput(void);

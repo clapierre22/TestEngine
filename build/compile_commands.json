@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\app.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\app.c",
+  "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/app.c",
+  "output": "CMakeFiles/TestEngine.dir/src/app.c.obj"
+},
+{
+  "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\draw.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\draw.c",
+  "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/draw.c",
+  "output": "CMakeFiles/TestEngine.dir/src/draw.c.obj"
+},
+{
+  "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\input.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\input.c",
+  "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/input.c",
+  "output": "CMakeFiles/TestEngine.dir/src/input.c.obj"
+},
+{
+  "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\main.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\main.c",
+  "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/main.c",
+  "output": "CMakeFiles/TestEngine.dir/src/main.c.obj"
+}
+]
