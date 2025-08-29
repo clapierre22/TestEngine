@@ -1,5 +1,14 @@
 #include "main.h"
 
+// TODO:
+// Cleanup function
+// Delta time for frame rate independence
+// FPS counter
+// Input handling
+// Basic renderering
+// Camera
+// Entities
+
 int main(int argc, char* argv[]) {
 	printf("Good Build Compile\n");
 
@@ -18,9 +27,7 @@ int main(int argc, char* argv[]) {
         SDL_Delay(DELAY);
     }
     
-    free(app.renderer);
-    free(app.window);
-    SDL_Quit();
-    
+    cleanup(&app);
+
     return 0;
 }

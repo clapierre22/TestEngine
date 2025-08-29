@@ -6,8 +6,5 @@
 #include "structs.h"
 
 #include "app.h"
-#include "cleanup.h"
-#include "draw.h"
-#include "input.h"
 
-int main(int argc, char* argv[]);
+void cleanup(App *app);
