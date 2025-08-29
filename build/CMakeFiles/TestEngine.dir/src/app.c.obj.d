@@ -197,4 +197,5 @@ CMakeFiles/TestEngine.dir/src/app.c.obj: \
  C:/msys64/mingw64/include/SDL2/SDL_locale.h \
  C:/msys64/mingw64/include/SDL2/SDL_misc.h \
  C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\defs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\structs.h
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\structs.h \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.h

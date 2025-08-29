@@ -152,6 +152,54 @@ src/app.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/app.c.s
 .PHONY : src/app.c.s
 
+src/cleanup.obj: src/cleanup.c.obj
+.PHONY : src/cleanup.obj
+
+# target to build an object file
+src/cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/cleanup.c.obj
+.PHONY : src/cleanup.c.obj
+
+src/cleanup.i: src/cleanup.c.i
+.PHONY : src/cleanup.i
+
+# target to preprocess a source file
+src/cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/cleanup.c.i
+.PHONY : src/cleanup.c.i
+
+src/cleanup.s: src/cleanup.c.s
+.PHONY : src/cleanup.s
+
+# target to generate assembly for a file
+src/cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/cleanup.c.s
+.PHONY : src/cleanup.c.s
+
+src/delta.obj: src/delta.c.obj
+.PHONY : src/delta.obj
+
+# target to build an object file
+src/delta.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/delta.c.obj
+.PHONY : src/delta.c.obj
+
+src/delta.i: src/delta.c.i
+.PHONY : src/delta.i
+
+# target to preprocess a source file
+src/delta.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/delta.c.i
+.PHONY : src/delta.c.i
+
+src/delta.s: src/delta.c.s
+.PHONY : src/delta.s
+
+# target to generate assembly for a file
+src/delta.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/delta.c.s
+.PHONY : src/delta.c.s
+
 src/draw.obj: src/draw.c.obj
 .PHONY : src/draw.obj
 
@@ -236,6 +284,12 @@ help:
 	@echo ... src/app.obj
 	@echo ... src/app.i
 	@echo ... src/app.s
+	@echo ... src/cleanup.obj
+	@echo ... src/cleanup.i
+	@echo ... src/cleanup.s
+	@echo ... src/delta.obj
+	@echo ... src/delta.i
+	@echo ... src/delta.s
 	@echo ... src/draw.obj
 	@echo ... src/draw.i
 	@echo ... src/draw.s

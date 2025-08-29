@@ -1,6 +1,6 @@
 #include "cleanup.h"
 
-void cleanup(App *app) {
+void clean(App *app) {
     if (app->renderer) {
         SDL_DestroyRenderer(app->renderer);
         app->renderer = NULL;

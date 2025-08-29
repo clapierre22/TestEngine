@@ -5,6 +5,4 @@
 #include "defs.h"
 #include "structs.h"
 
-#include "app.h"
-
-void cleanup(App *app);
+void clean(App *app);

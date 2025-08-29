@@ -1,6 +1,6 @@
-CMakeFiles/TestEngine.dir/src/main.c.obj: \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\main.c \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\main.h \
+CMakeFiles/TestEngine.dir/src/delta.c.obj: \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.c \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.h \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -197,9 +197,4 @@ CMakeFiles/TestEngine.dir/src/main.c.obj: \
  C:/msys64/mingw64/include/SDL2/SDL_locale.h \
  C:/msys64/mingw64/include/SDL2/SDL_misc.h \
  C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\defs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\structs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\app.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\cleanup.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\draw.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\input.h
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\structs.h

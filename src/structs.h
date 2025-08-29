@@ -9,6 +9,9 @@ typedef struct {
     int running;
     SDL_Renderer *renderer;
     SDL_Window *window;
+    uint32_t fps;
+    uint32_t lastTime;
+    float deltaTime;
 } App;
 
 #endif // STRUCTS_H

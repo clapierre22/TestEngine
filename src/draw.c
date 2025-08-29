@@ -7,4 +7,12 @@ void prepareScene(App *app) {
 
 void presentScene(App *app) {
     SDL_RenderPresent(app->renderer);
+    renderFPS(app);
+}
+
+void renderFPS(App *app) {
+    // Placeholder function until TTF is integrated
+    char fpsText[64];
+    snprintf(fpsText, sizeof(fpsText), "FPS: %d", app->fps);
+    SDL_SetWindowTitle(app->window, fpsText);
 }

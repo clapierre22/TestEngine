@@ -1,7 +1,6 @@
 #include "main.h"
 
 // TODO:
-// Delta time for frame rate independence
 // FPS counter
 // Input handling
 // Basic renderering
@@ -14,21 +13,17 @@ int main(int argc, char* argv[]) {
     // Init App
     App app;
     memset(&app, 0, sizeof(App));
-    initSDL(&app);
-
-    // Timer 
-    Uint32 lastTime = 0;
-    float deltaTime = 0.0f;
+    initApp(&app);
 
     while (app.running) {
-        getDeltaTime(&lastTime, &deltaTime);
+        updateApp(&app);
         prepareScene(&app);
-        doInput();
-        presentScene(&app);
+        doInput(&app);
+        presentScene(&app); // Error: FPS = 0
         SDL_Delay(DELAY);
     }
     
-    cleanup(&app);
+    clean(&app);
 
     return 0;
 }

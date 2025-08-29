@@ -5,4 +5,5 @@
 #include "defs.h"
 #include "structs.h"
 
-void getDeltaTime(Uint32 *lastTime, float *deltaTime);
+void getDeltaTime(uint32_t *lastTime, float *deltaTime);
+void getFPS(uint32_t *fps, float *deltaTime);

@@ -31,3 +31,16 @@ void initSDL(App *app) {
         exit(EXIT_FAILURE);
     }
 }
+
+void initApp(App *app) {
+    initSDL(app);
+    app->running = TRUE;
+    app->fps = 0;
+    app->lastTime = 0;
+    app->deltaTime = 0.0f;
+}
+
+void updateApp(App *app) {
+    getDeltaTime(&app->lastTime, &app->deltaTime);
+    getFPS(&app->fps, &app->deltaTime);
+}
