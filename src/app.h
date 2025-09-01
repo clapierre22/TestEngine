@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <SDL2/SDL.h>
 
-#include "defs.h"
-#include "structs.h"
+#include "base/defs.h"
+#include "base/structs.h"
 
-#include "delta.h"
+#include "math/delta.h"
 
 void initSDL(App *app);
 void initApp(App *app);

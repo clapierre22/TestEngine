@@ -1,8 +1,6 @@
 #include "main.h"
 
 // TODO:
-// FPS counter
-// Input handling
 // Basic renderering
 // Camera
 // Entities
@@ -19,7 +17,7 @@ int main(int argc, char* argv[]) {
         updateApp(&app);
         prepareScene(&app);
         doInput(&app);
-        presentScene(&app); // Error: FPS = 0
+        presentScene(&app);
         SDL_Delay(DELAY);
     }
     

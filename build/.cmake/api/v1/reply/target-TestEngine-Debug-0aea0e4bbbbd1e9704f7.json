@@ -72,6 +72,12 @@
 			{
 				"command" : 5,
 				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
 				"line" : 15,
 				"parent" : 0
 			}
@@ -90,6 +96,22 @@
 			[
 				{
 					"backtrace" : 8,
+					"path" : "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic"
+				},
+				{
+					"backtrace" : 9,
 					"isSystem" : true,
 					"path" : "C:/msys64/mingw64/include/SDL2"
 				}
@@ -183,31 +205,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/cleanup.c",
+			"path" : "src/base/cleanup.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/delta.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/draw.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "src/input.c",
+			"path" : "src/logic/input.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/math/delta.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/draw.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -5,7 +5,7 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 # Add all .c files in src/
-file(GLOB SRC_FILES src/*.c)
+file(GLOB_RECURSE SRC_FILES src/*.c)
 
 add_executable(TestEngine ${SRC_FILES})
 
@@ -15,3 +15,10 @@ if(SDL2_FOUND)
     include_directories(${SDL2_INCLUDE_DIRS})
     target_link_libraries(TestEngine ${SDL2_LIBRARIES})
 endif()
+
+include_directories(
+    ${CMAKE_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/src/base
+    ${CMAKE_SOURCE_DIR}/src/render
+    ${CMAKE_SOURCE_DIR}/src/logic
+)

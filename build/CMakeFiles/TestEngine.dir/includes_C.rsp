@@ -1,1 +1,1 @@
--isystem C:/msys64/mingw64/include/SDL2
+-IC:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src -IC:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base -IC:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render -IC:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic -isystem C:/msys64/mingw64/include/SDL2

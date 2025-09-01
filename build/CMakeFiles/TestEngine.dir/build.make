@@ -86,71 +86,41 @@ CMakeFiles/TestEngine.dir/src/app.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/app.c.s"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\app.c -o CMakeFiles\TestEngine.dir\src\app.c.s
 
-CMakeFiles/TestEngine.dir/src/cleanup.c.obj: CMakeFiles/TestEngine.dir/flags.make
-CMakeFiles/TestEngine.dir/src/cleanup.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
-CMakeFiles/TestEngine.dir/src/cleanup.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/cleanup.c
-CMakeFiles/TestEngine.dir/src/cleanup.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TestEngine.dir/src/cleanup.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/cleanup.c.obj -MF CMakeFiles\TestEngine.dir\src\cleanup.c.obj.d -o CMakeFiles\TestEngine.dir\src\cleanup.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\cleanup.c
+CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj: CMakeFiles/TestEngine.dir/flags.make
+CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
+CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/cleanup.c
+CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj -MF CMakeFiles\TestEngine.dir\src\base\cleanup.c.obj.d -o CMakeFiles\TestEngine.dir\src\base\cleanup.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base\cleanup.c
 
-CMakeFiles/TestEngine.dir/src/cleanup.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/cleanup.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\cleanup.c > CMakeFiles\TestEngine.dir\src\cleanup.c.i
+CMakeFiles/TestEngine.dir/src/base/cleanup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/base/cleanup.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base\cleanup.c > CMakeFiles\TestEngine.dir\src\base\cleanup.c.i
 
-CMakeFiles/TestEngine.dir/src/cleanup.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/cleanup.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\cleanup.c -o CMakeFiles\TestEngine.dir\src\cleanup.c.s
+CMakeFiles/TestEngine.dir/src/base/cleanup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/base/cleanup.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base\cleanup.c -o CMakeFiles\TestEngine.dir\src\base\cleanup.c.s
 
-CMakeFiles/TestEngine.dir/src/delta.c.obj: CMakeFiles/TestEngine.dir/flags.make
-CMakeFiles/TestEngine.dir/src/delta.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
-CMakeFiles/TestEngine.dir/src/delta.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/delta.c
-CMakeFiles/TestEngine.dir/src/delta.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TestEngine.dir/src/delta.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/delta.c.obj -MF CMakeFiles\TestEngine.dir\src\delta.c.obj.d -o CMakeFiles\TestEngine.dir\src\delta.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.c
+CMakeFiles/TestEngine.dir/src/logic/input.c.obj: CMakeFiles/TestEngine.dir/flags.make
+CMakeFiles/TestEngine.dir/src/logic/input.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
+CMakeFiles/TestEngine.dir/src/logic/input.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.c
+CMakeFiles/TestEngine.dir/src/logic/input.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/TestEngine.dir/src/logic/input.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/logic/input.c.obj -MF CMakeFiles\TestEngine.dir\src\logic\input.c.obj.d -o CMakeFiles\TestEngine.dir\src\logic\input.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\logic\input.c
 
-CMakeFiles/TestEngine.dir/src/delta.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/delta.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.c > CMakeFiles\TestEngine.dir\src\delta.c.i
+CMakeFiles/TestEngine.dir/src/logic/input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/logic/input.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\logic\input.c > CMakeFiles\TestEngine.dir\src\logic\input.c.i
 
-CMakeFiles/TestEngine.dir/src/delta.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/delta.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\delta.c -o CMakeFiles\TestEngine.dir\src\delta.c.s
-
-CMakeFiles/TestEngine.dir/src/draw.c.obj: CMakeFiles/TestEngine.dir/flags.make
-CMakeFiles/TestEngine.dir/src/draw.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
-CMakeFiles/TestEngine.dir/src/draw.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/draw.c
-CMakeFiles/TestEngine.dir/src/draw.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TestEngine.dir/src/draw.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/draw.c.obj -MF CMakeFiles\TestEngine.dir\src\draw.c.obj.d -o CMakeFiles\TestEngine.dir\src\draw.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\draw.c
-
-CMakeFiles/TestEngine.dir/src/draw.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/draw.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\draw.c > CMakeFiles\TestEngine.dir\src\draw.c.i
-
-CMakeFiles/TestEngine.dir/src/draw.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/draw.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\draw.c -o CMakeFiles\TestEngine.dir\src\draw.c.s
-
-CMakeFiles/TestEngine.dir/src/input.c.obj: CMakeFiles/TestEngine.dir/flags.make
-CMakeFiles/TestEngine.dir/src/input.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
-CMakeFiles/TestEngine.dir/src/input.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/input.c
-CMakeFiles/TestEngine.dir/src/input.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TestEngine.dir/src/input.c.obj"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/input.c.obj -MF CMakeFiles\TestEngine.dir\src\input.c.obj.d -o CMakeFiles\TestEngine.dir\src\input.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\input.c
-
-CMakeFiles/TestEngine.dir/src/input.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/input.c.i"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\input.c > CMakeFiles\TestEngine.dir\src\input.c.i
-
-CMakeFiles/TestEngine.dir/src/input.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/input.c.s"
-	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\input.c -o CMakeFiles\TestEngine.dir\src\input.c.s
+CMakeFiles/TestEngine.dir/src/logic/input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/logic/input.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\logic\input.c -o CMakeFiles\TestEngine.dir\src\logic\input.c.s
 
 CMakeFiles/TestEngine.dir/src/main.c.obj: CMakeFiles/TestEngine.dir/flags.make
 CMakeFiles/TestEngine.dir/src/main.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
 CMakeFiles/TestEngine.dir/src/main.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/main.c
 CMakeFiles/TestEngine.dir/src/main.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/TestEngine.dir/src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/TestEngine.dir/src/main.c.obj"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/main.c.obj -MF CMakeFiles\TestEngine.dir\src\main.c.obj.d -o CMakeFiles\TestEngine.dir\src\main.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\main.c
 
 CMakeFiles/TestEngine.dir/src/main.c.i: cmake_force
@@ -161,24 +131,54 @@ CMakeFiles/TestEngine.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/main.c.s"
 	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\main.c -o CMakeFiles\TestEngine.dir\src\main.c.s
 
+CMakeFiles/TestEngine.dir/src/math/delta.c.obj: CMakeFiles/TestEngine.dir/flags.make
+CMakeFiles/TestEngine.dir/src/math/delta.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
+CMakeFiles/TestEngine.dir/src/math/delta.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.c
+CMakeFiles/TestEngine.dir/src/math/delta.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/TestEngine.dir/src/math/delta.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/math/delta.c.obj -MF CMakeFiles\TestEngine.dir\src\math\delta.c.obj.d -o CMakeFiles\TestEngine.dir\src\math\delta.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math\delta.c
+
+CMakeFiles/TestEngine.dir/src/math/delta.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/math/delta.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math\delta.c > CMakeFiles\TestEngine.dir\src\math\delta.c.i
+
+CMakeFiles/TestEngine.dir/src/math/delta.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/math/delta.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math\delta.c -o CMakeFiles\TestEngine.dir\src\math\delta.c.s
+
+CMakeFiles/TestEngine.dir/src/render/draw.c.obj: CMakeFiles/TestEngine.dir/flags.make
+CMakeFiles/TestEngine.dir/src/render/draw.c.obj: CMakeFiles/TestEngine.dir/includes_C.rsp
+CMakeFiles/TestEngine.dir/src/render/draw.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.c
+CMakeFiles/TestEngine.dir/src/render/draw.c.obj: CMakeFiles/TestEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/TestEngine.dir/src/render/draw.c.obj"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/TestEngine.dir/src/render/draw.c.obj -MF CMakeFiles\TestEngine.dir\src\render\draw.c.obj.d -o CMakeFiles\TestEngine.dir\src\render\draw.c.obj -c C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\render\draw.c
+
+CMakeFiles/TestEngine.dir/src/render/draw.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/TestEngine.dir/src/render/draw.c.i"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\render\draw.c > CMakeFiles\TestEngine.dir\src\render\draw.c.i
+
+CMakeFiles/TestEngine.dir/src/render/draw.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/TestEngine.dir/src/render/draw.c.s"
+	C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\render\draw.c -o CMakeFiles\TestEngine.dir\src\render\draw.c.s
+
 # Object files for target TestEngine
 TestEngine_OBJECTS = \
 "CMakeFiles/TestEngine.dir/src/app.c.obj" \
-"CMakeFiles/TestEngine.dir/src/cleanup.c.obj" \
-"CMakeFiles/TestEngine.dir/src/delta.c.obj" \
-"CMakeFiles/TestEngine.dir/src/draw.c.obj" \
-"CMakeFiles/TestEngine.dir/src/input.c.obj" \
-"CMakeFiles/TestEngine.dir/src/main.c.obj"
+"CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj" \
+"CMakeFiles/TestEngine.dir/src/logic/input.c.obj" \
+"CMakeFiles/TestEngine.dir/src/main.c.obj" \
+"CMakeFiles/TestEngine.dir/src/math/delta.c.obj" \
+"CMakeFiles/TestEngine.dir/src/render/draw.c.obj"
 
 # External object files for target TestEngine
 TestEngine_EXTERNAL_OBJECTS =
 
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/app.c.obj
-C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/cleanup.c.obj
-C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/delta.c.obj
-C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/draw.c.obj
-C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/input.c.obj
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/logic/input.c.obj
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/main.c.obj
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/math/delta.c.obj
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/src/render/draw.c.obj
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: CMakeFiles/TestEngine.dir/build.make
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: C:/msys64/mingw64/lib/libSDL2main.a
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/bin/TestEngine.exe: C:/msys64/mingw64/lib/libSDL2.dll.a

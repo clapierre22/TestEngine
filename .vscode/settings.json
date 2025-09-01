@@ -1,6 +1,8 @@
 {
     "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/gcc.exe",
     "files.associations": {
-        "app.h": "c"
+        "app.h": "c",
+        "input.h": "c",
+        "defs.h": "c"
     }
 }

@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <SDL2/SDL.h>
 
-#include "defs.h"
-#include "structs.h"
+#include "base/defs.h"
+#include "base/structs.h"
 
 #include "app.h"
-#include "cleanup.h"
-#include "draw.h"
-#include "input.h"
+#include "base/cleanup.h"
+#include "render/draw.h"
+#include "logic/input.h"
 
 int main(int argc, char* argv[]);

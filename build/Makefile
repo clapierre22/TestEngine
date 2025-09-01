@@ -152,101 +152,53 @@ src/app.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/app.c.s
 .PHONY : src/app.c.s
 
-src/cleanup.obj: src/cleanup.c.obj
-.PHONY : src/cleanup.obj
+src/base/cleanup.obj: src/base/cleanup.c.obj
+.PHONY : src/base/cleanup.obj
 
 # target to build an object file
-src/cleanup.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/cleanup.c.obj
-.PHONY : src/cleanup.c.obj
+src/base/cleanup.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj
+.PHONY : src/base/cleanup.c.obj
 
-src/cleanup.i: src/cleanup.c.i
-.PHONY : src/cleanup.i
+src/base/cleanup.i: src/base/cleanup.c.i
+.PHONY : src/base/cleanup.i
 
 # target to preprocess a source file
-src/cleanup.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/cleanup.c.i
-.PHONY : src/cleanup.c.i
+src/base/cleanup.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/base/cleanup.c.i
+.PHONY : src/base/cleanup.c.i
 
-src/cleanup.s: src/cleanup.c.s
-.PHONY : src/cleanup.s
+src/base/cleanup.s: src/base/cleanup.c.s
+.PHONY : src/base/cleanup.s
 
 # target to generate assembly for a file
-src/cleanup.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/cleanup.c.s
-.PHONY : src/cleanup.c.s
+src/base/cleanup.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/base/cleanup.c.s
+.PHONY : src/base/cleanup.c.s
 
-src/delta.obj: src/delta.c.obj
-.PHONY : src/delta.obj
+src/logic/input.obj: src/logic/input.c.obj
+.PHONY : src/logic/input.obj
 
 # target to build an object file
-src/delta.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/delta.c.obj
-.PHONY : src/delta.c.obj
+src/logic/input.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/logic/input.c.obj
+.PHONY : src/logic/input.c.obj
 
-src/delta.i: src/delta.c.i
-.PHONY : src/delta.i
-
-# target to preprocess a source file
-src/delta.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/delta.c.i
-.PHONY : src/delta.c.i
-
-src/delta.s: src/delta.c.s
-.PHONY : src/delta.s
-
-# target to generate assembly for a file
-src/delta.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/delta.c.s
-.PHONY : src/delta.c.s
-
-src/draw.obj: src/draw.c.obj
-.PHONY : src/draw.obj
-
-# target to build an object file
-src/draw.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/draw.c.obj
-.PHONY : src/draw.c.obj
-
-src/draw.i: src/draw.c.i
-.PHONY : src/draw.i
+src/logic/input.i: src/logic/input.c.i
+.PHONY : src/logic/input.i
 
 # target to preprocess a source file
-src/draw.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/draw.c.i
-.PHONY : src/draw.c.i
+src/logic/input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/logic/input.c.i
+.PHONY : src/logic/input.c.i
 
-src/draw.s: src/draw.c.s
-.PHONY : src/draw.s
-
-# target to generate assembly for a file
-src/draw.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/draw.c.s
-.PHONY : src/draw.c.s
-
-src/input.obj: src/input.c.obj
-.PHONY : src/input.obj
-
-# target to build an object file
-src/input.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/input.c.obj
-.PHONY : src/input.c.obj
-
-src/input.i: src/input.c.i
-.PHONY : src/input.i
-
-# target to preprocess a source file
-src/input.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/input.c.i
-.PHONY : src/input.c.i
-
-src/input.s: src/input.c.s
-.PHONY : src/input.s
+src/logic/input.s: src/logic/input.c.s
+.PHONY : src/logic/input.s
 
 # target to generate assembly for a file
-src/input.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/input.c.s
-.PHONY : src/input.c.s
+src/logic/input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/logic/input.c.s
+.PHONY : src/logic/input.c.s
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
@@ -272,6 +224,54 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/math/delta.obj: src/math/delta.c.obj
+.PHONY : src/math/delta.obj
+
+# target to build an object file
+src/math/delta.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/delta.c.obj
+.PHONY : src/math/delta.c.obj
+
+src/math/delta.i: src/math/delta.c.i
+.PHONY : src/math/delta.i
+
+# target to preprocess a source file
+src/math/delta.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/delta.c.i
+.PHONY : src/math/delta.c.i
+
+src/math/delta.s: src/math/delta.c.s
+.PHONY : src/math/delta.s
+
+# target to generate assembly for a file
+src/math/delta.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/delta.c.s
+.PHONY : src/math/delta.c.s
+
+src/render/draw.obj: src/render/draw.c.obj
+.PHONY : src/render/draw.obj
+
+# target to build an object file
+src/render/draw.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/render/draw.c.obj
+.PHONY : src/render/draw.c.obj
+
+src/render/draw.i: src/render/draw.c.i
+.PHONY : src/render/draw.i
+
+# target to preprocess a source file
+src/render/draw.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/render/draw.c.i
+.PHONY : src/render/draw.c.i
+
+src/render/draw.s: src/render/draw.c.s
+.PHONY : src/render/draw.s
+
+# target to generate assembly for a file
+src/render/draw.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/render/draw.c.s
+.PHONY : src/render/draw.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -284,21 +284,21 @@ help:
 	@echo ... src/app.obj
 	@echo ... src/app.i
 	@echo ... src/app.s
-	@echo ... src/cleanup.obj
-	@echo ... src/cleanup.i
-	@echo ... src/cleanup.s
-	@echo ... src/delta.obj
-	@echo ... src/delta.i
-	@echo ... src/delta.s
-	@echo ... src/draw.obj
-	@echo ... src/draw.i
-	@echo ... src/draw.s
-	@echo ... src/input.obj
-	@echo ... src/input.i
-	@echo ... src/input.s
+	@echo ... src/base/cleanup.obj
+	@echo ... src/base/cleanup.i
+	@echo ... src/base/cleanup.s
+	@echo ... src/logic/input.obj
+	@echo ... src/logic/input.i
+	@echo ... src/logic/input.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/math/delta.obj
+	@echo ... src/math/delta.i
+	@echo ... src/math/delta.s
+	@echo ... src/render/draw.obj
+	@echo ... src/render/draw.i
+	@echo ... src/render/draw.s
 .PHONY : help
 
 
