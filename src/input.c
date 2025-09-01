@@ -15,6 +15,19 @@ void doInput(App *app) {
             }
         }
     }
+    
+    // Temp mouse values
+    // uint32_t mouseX, mouseY;
+    SDL_GetMouseState(&app->mouseX, &app->mouseY);
+
+    uint32_t mouseButtons = SDL_GetMouseState(NULL, NULL);
+    if (mouseButtons & SDL_BUTTON(SDL_BUTTON_LEFT)) {
+        printf("Left Click @ %d, %d (x, y)\n", app->mouseX, app->mouseY);
+    }
+    if (mouseButtons & SDL_BUTTON(SDL_BUTTON_RIGHT)) {
+        printf("Right Click @ %d, %d (x, y)\n", app->mouseX, app->mouseY);
+    }
+
 
     const uint8_t *state = SDL_GetKeyboardState(NULL);
 

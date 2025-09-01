@@ -12,6 +12,7 @@ typedef struct {
     uint32_t fps;
     uint32_t lastTime;
     float deltaTime;
+    int mouseX, mouseY; // SDL Uses int type for mouse x,y
 } App;
 
 #endif // STRUCTS_H
