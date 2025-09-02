@@ -6,8 +6,7 @@
 #include "base/defs.h"
 #include "base/structs.h"
 
-#include "app.h" // Check if this is necessary to include
-
+extern const Color mouse_state_colors[];
 void prepareScene(App *app);
 void presentScene(App *app);
 void renderFPS(App *app);

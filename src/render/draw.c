@@ -1,5 +1,14 @@
 #include "draw.h"
 
+// Mouse state colors lookup table
+const Color mouse_state_colors[] = {
+    [MOUSE_DEFAULT] = {255, 255, 255, 255},
+    [MOUSE_HOVER] = {0, 0, 255, 255},
+    [MOUSE_CLICK_L] = {0, 255, 0, 255},
+    [MOUSE_CLICK_R] = {255, 0, 0, 255},
+    [MOUSE_INACTIVE] = {0, 0, 0, 255}
+};
+
 void prepareScene(App *app) {
     SDL_SetRenderDrawColor(app->renderer, 96, 128, 255, 255);
     SDL_RenderClear(app->renderer);
@@ -40,7 +49,7 @@ void renderMouse(App *app) {
 }
 
 void renderEntity(App *app, Entity *entity) {
-    if (!entity || entity->type = ENTITY_TYPE_NONE) return;
+    if (!entity || entity->type == ENTITY_TYPE_NONE) return;
 
     SDL_Rect entityRect = {
         entity->position.x,

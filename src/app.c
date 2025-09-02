@@ -54,4 +54,11 @@ void initApp(App *app) {
 void updateApp(App *app) {
     getDeltaTime(&app->lastTime, &app->deltaTime);
     getFPS(&app->fps, &app->deltaTime);
+    doInput(app);
+    renderApp(app);
+}
+
+void renderApp(App *app) {
+    prepareScene(app);
+    presentScene(app);
 }

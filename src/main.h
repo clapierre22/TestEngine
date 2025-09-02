@@ -6,8 +6,8 @@
 #include "base/structs.h"
 
 #include "app.h"
-#include "base/cleanup.h"
-#include "render/draw.h"
-#include "logic/input.h"
+// #include "base/cleanup.h"
+// #include "render/draw.h"
+// #include "logic/input.h"
 
 int main(int argc, char* argv[]);

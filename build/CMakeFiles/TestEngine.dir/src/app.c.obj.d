@@ -199,7 +199,11 @@ CMakeFiles/TestEngine.dir/src/app.c.obj: \
  C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/defs.h \
  C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/structs.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/structs.h \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/defs.h \
  C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math/delta.h \
  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h
+ C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/cleanup.h \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/structs.h \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\render/draw.h \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\logic/input.h

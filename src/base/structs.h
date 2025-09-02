@@ -6,6 +6,8 @@
 #include <SDL2/SDL.h>
 #include <stdbool.h>
 
+#include "defs.h"
+
 typedef struct {
     uint8_t r, g, b, a;
 } Color;

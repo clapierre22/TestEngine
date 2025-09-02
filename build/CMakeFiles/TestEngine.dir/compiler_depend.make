@@ -207,9 +207,13 @@ CMakeFiles/TestEngine.dir/src/app.c.obj: C:/Users/calvi/OneDrive/Desktop/Persona
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/app.h \
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/cleanup.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
-  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.h \
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h \
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/colors.h \
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.h
 
 CMakeFiles/TestEngine.dir/src/base/cleanup.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/cleanup.c \
   C:/msys64/mingw64/include/SDL2/SDL.h \
@@ -626,10 +630,8 @@ CMakeFiles/TestEngine.dir/src/logic/input.c.obj: C:/Users/calvi/OneDrive/Desktop
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.h
 
 CMakeFiles/TestEngine.dir/src/main.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/main.c \
-  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/app.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
-  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h \
   C:/msys64/mingw64/include/SDL2/SDL.h \
   C:/msys64/mingw64/include/SDL2/SDL_assert.h \
   C:/msys64/mingw64/include/SDL2/SDL_atomic.h \
@@ -839,6 +841,7 @@ CMakeFiles/TestEngine.dir/src/main.c.obj: C:/Users/calvi/OneDrive/Desktop/Person
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/main.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h \
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/colors.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.h
 
 CMakeFiles/TestEngine.dir/src/math/delta.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.c \
@@ -1049,10 +1052,8 @@ CMakeFiles/TestEngine.dir/src/math/delta.c.obj: C:/Users/calvi/OneDrive/Desktop/
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h
 
 CMakeFiles/TestEngine.dir/src/render/draw.c.obj: C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.c \
-  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/app.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
-  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h \
   C:/msys64/mingw64/include/SDL2/SDL.h \
   C:/msys64/mingw64/include/SDL2/SDL_assert.h \
   C:/msys64/mingw64/include/SDL2/SDL_atomic.h \
@@ -1255,6 +1256,7 @@ CMakeFiles/TestEngine.dir/src/render/draw.c.obj: C:/Users/calvi/OneDrive/Desktop
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
   C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/colors.h \
   C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.h
 
 
@@ -1262,13 +1264,13 @@ C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.c:
 
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.c:
 
-C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.h:
-
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/main.h:
 
-C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.h:
-
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.c:
+
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.h:
+
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.h:
 
 C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/app.h:
 
@@ -1303,6 +1305,8 @@ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h:
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rtmintrin.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h:
+
+C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/colors.h:
 
 C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/raointintrin.h:
 

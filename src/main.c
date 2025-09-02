@@ -2,10 +2,26 @@
 
 // TODO:
 // Camera
+// // Render Map Object <<
+// // WASD Move Camera
+// // General rendering scripts for camera
 // Entities
+// // Fully implement entities
+// // Entity logic
+// // // Spawning
+// // // Movement
+// // // Death
 // Map
+// // Load Map from file
+// // Map logic
+// // Map editor
 // UI
+// // Map editor UI
+// // In-game UI
 // Textures and Sprites
+// // Texture atlas
+// // Sprite handling
+// // Sprite animations
 // Audio
 
 int main(int argc, char* argv[]) {
@@ -18,9 +34,9 @@ int main(int argc, char* argv[]) {
 
     while (app.running) {
         updateApp(&app);
-        prepareScene(&app);
-        doInput(&app);
-        presentScene(&app);
+        // prepareScene(&app);
+        // doInput(&app);
+        // presentScene(&app);
         SDL_Delay(DELAY);
     }
     
