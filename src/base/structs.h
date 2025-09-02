@@ -34,6 +34,13 @@ typedef struct {
 } Mouse;
 
 typedef struct {
+    EntityType type;
+    char *id;
+    Position position;
+    Vec2 size;
+} Entity;
+
+typedef struct {
     int running;
     SDL_Renderer *renderer;
     SDL_Window *window;

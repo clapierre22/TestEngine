@@ -12,3 +12,4 @@ void prepareScene(App *app);
 void presentScene(App *app);
 void renderFPS(App *app);
 void renderMouse(App *app);
+void renderEntity(App *app, Entity *entity);

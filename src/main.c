@@ -1,9 +1,12 @@
 #include "main.h"
 
 // TODO:
-// Basic renderering
 // Camera
 // Entities
+// Map
+// UI
+// Textures and Sprites
+// Audio
 
 int main(int argc, char* argv[]) {
 	printf("Good Build Compile\n");

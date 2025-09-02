@@ -4,6 +4,7 @@ void prepareScene(App *app) {
     SDL_SetRenderDrawColor(app->renderer, 96, 128, 255, 255);
     SDL_RenderClear(app->renderer);
     renderMouse(app);
+    // for (int i = 0; i < app->entityCount; i++) renderEntity(app, &entities[i]); NEXT TODO
 }
 
 void presentScene(App *app) {
@@ -26,6 +27,7 @@ void renderMouse(App *app) {
         MOUSE_WIDTH
     };
 
+    // When change to sprite, same logic but with the sprite mapping
     SDL_SetRenderDrawColor(
         app->renderer, 
         mouse_state_colors[app->mouse.state].r,
@@ -35,4 +37,18 @@ void renderMouse(App *app) {
     );
 
     SDL_RenderFillRect(app->renderer, &mouseRect);
+}
+
+void renderEntity(App *app, Entity *entity) {
+    if (!entity || entity->type = ENTITY_TYPE_NONE) return;
+
+    SDL_Rect entityRect = {
+        entity->position.x,
+        entity->position.y,
+        (int)entity->size.a,
+        (int)entity->size.b
+    };
+
+    SDL_SetRenderDrawColor(app->renderer, 255, 255, 0, 255); // Yellow for entities
+    SDL_RenderFillRect(app->renderer, &entityRect);
 }
