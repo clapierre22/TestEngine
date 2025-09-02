@@ -1,6 +1,6 @@
-CMakeFiles/TestEngine.dir/src/main.c.obj: \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\main.c \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\main.h \
+CMakeFiles/TestEngine.dir/src/math/delta.c.obj: \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math\delta.c \
+ C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math\delta.h \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -196,19 +196,7 @@ CMakeFiles/TestEngine.dir/src/main.c.obj: \
  C:/msys64/mingw64/include/SDL2/SDL_version.h \
  C:/msys64/mingw64/include/SDL2/SDL_locale.h \
  C:/msys64/mingw64/include/SDL2/SDL_misc.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/defs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/structs.h \
+ C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
+ C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/structs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\app.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\math/delta.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/cleanup.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\base/defs.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\render/draw.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/app.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/defs.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h \
- C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.h \
- C:\Users\calvi\OneDrive\Desktop\Personal\TestEngine\src\logic/input.h
+ C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/base/structs.h
