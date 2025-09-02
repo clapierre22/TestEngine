@@ -19,6 +19,14 @@
 #define MOUSE_WIDTH 10
 #define MOUSE_HEIGHT 10
 
+typedef enum {
+    MOUSE_DEFAULT,
+    MOUSE_HOVER,
+    MOUSE_CLICK_L,
+    MOUSE_CLICK_R,
+    MOUSE_INACTIVE
+} MouseState;
+
 // Entity
 typedef enum {
     // Default

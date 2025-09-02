@@ -20,14 +20,6 @@ typedef struct {
     int x, y;
 } Position;
 
-typedef enum {
-    MOUSE_DEFAULT,
-    MOUSE_HOVER,
-    MOUSE_CLICK_L,
-    MOUSE_CLICK_R,
-    MOUSE_INACTIVE
-} MouseState;
-
 typedef struct {
     Position position;
     Vec2 size;
@@ -43,13 +35,18 @@ typedef struct {
 } Entity;
 
 typedef struct {
+    Position position;
+    Vec2 size;
+    float zoom;
+} Camera;
+
+typedef struct {
     int running;
     SDL_Renderer *renderer;
     SDL_Window *window;
     uint32_t fps;
     uint32_t lastTime;
     float deltaTime;
-    // int mouseX, mouseY; // SDL Uses int type for mouse x,y
     Mouse mouse;
 } App;
 
