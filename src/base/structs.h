@@ -21,6 +21,18 @@ typedef struct {
 } Position;
 
 typedef struct {
+    float x, y;
+} WorldPoint;
+
+typedef struct {
+    int x, y;
+} ScreenPoint;
+
+typedef struct {
+    int a, b;
+} ScreenSize;
+
+typedef struct {
     Position position;
     Vec2 size;
     bool clickL, clickR, hover, inactive;
@@ -30,15 +42,26 @@ typedef struct {
 typedef struct {
     EntityType type;
     char *id;
-    Position position;
+    Position position; // Top left corner
+    ScreenPoint screenPos;
     Vec2 size;
+    ScreenSize screenSize;
+    SDL_Rect hitbox;
+    SDL_Rect screenHitbox;
 } Entity;
 
 typedef struct {
     Position position;
     Vec2 size;
-    float zoom;
+    float halfW, halfH;
+    float zoom, invZoom;
+    CameraMode mode;
 } Camera;
+
+typedef struct {
+    int up, down, left, right; // Movement
+    bool a1, a2; // Action buttons
+} Input;
 
 typedef struct {
     int running;
@@ -48,6 +71,11 @@ typedef struct {
     uint32_t lastTime;
     float deltaTime;
     Mouse mouse;
+    Camera camera;
+    Input input; // Stores next input for camera/player
+    Entity *entities;
+    int entityCount;
+    int entityCap;
 } App;
 
 #endif // STRUCTS_H

@@ -31,6 +31,18 @@
 },
 {
   "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\math\\world.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\math\\world.c",
+  "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/world.c",
+  "output": "CMakeFiles/TestEngine.dir/src/math/world.c.obj"
+},
+{
+  "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\render\\camera.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\render\\camera.c",
+  "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/camera.c",
+  "output": "CMakeFiles/TestEngine.dir/src/render/camera.c.obj"
+},
+{
+  "directory": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/build",
   "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/TestEngine.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\TestEngine.dir\\src\\render\\draw.c.obj -c C:\\Users\\calvi\\OneDrive\\Desktop\\Personal\\TestEngine\\src\\render\\draw.c",
   "file": "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.c",
   "output": "CMakeFiles/TestEngine.dir/src/render/draw.c.obj"

@@ -248,6 +248,54 @@ src/math/delta.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/delta.c.s
 .PHONY : src/math/delta.c.s
 
+src/math/world.obj: src/math/world.c.obj
+.PHONY : src/math/world.obj
+
+# target to build an object file
+src/math/world.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/world.c.obj
+.PHONY : src/math/world.c.obj
+
+src/math/world.i: src/math/world.c.i
+.PHONY : src/math/world.i
+
+# target to preprocess a source file
+src/math/world.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/world.c.i
+.PHONY : src/math/world.c.i
+
+src/math/world.s: src/math/world.c.s
+.PHONY : src/math/world.s
+
+# target to generate assembly for a file
+src/math/world.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/math/world.c.s
+.PHONY : src/math/world.c.s
+
+src/render/camera.obj: src/render/camera.c.obj
+.PHONY : src/render/camera.obj
+
+# target to build an object file
+src/render/camera.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/render/camera.c.obj
+.PHONY : src/render/camera.c.obj
+
+src/render/camera.i: src/render/camera.c.i
+.PHONY : src/render/camera.i
+
+# target to preprocess a source file
+src/render/camera.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/render/camera.c.i
+.PHONY : src/render/camera.c.i
+
+src/render/camera.s: src/render/camera.c.s
+.PHONY : src/render/camera.s
+
+# target to generate assembly for a file
+src/render/camera.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestEngine.dir\build.make CMakeFiles/TestEngine.dir/src/render/camera.c.s
+.PHONY : src/render/camera.c.s
+
 src/render/draw.obj: src/render/draw.c.obj
 .PHONY : src/render/draw.obj
 
@@ -296,6 +344,12 @@ help:
 	@echo ... src/math/delta.obj
 	@echo ... src/math/delta.i
 	@echo ... src/math/delta.s
+	@echo ... src/math/world.obj
+	@echo ... src/math/world.i
+	@echo ... src/math/world.s
+	@echo ... src/render/camera.obj
+	@echo ... src/render/camera.i
+	@echo ... src/render/camera.s
 	@echo ... src/render/draw.obj
 	@echo ... src/render/draw.i
 	@echo ... src/render/draw.s

@@ -13,6 +13,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/logic/input.c" "CMakeFiles/TestEngine.dir/src/logic/input.c.obj" "gcc" "CMakeFiles/TestEngine.dir/src/logic/input.c.obj.d"
   "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/main.c" "CMakeFiles/TestEngine.dir/src/main.c.obj" "gcc" "CMakeFiles/TestEngine.dir/src/main.c.obj.d"
   "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/delta.c" "CMakeFiles/TestEngine.dir/src/math/delta.c.obj" "gcc" "CMakeFiles/TestEngine.dir/src/math/delta.c.obj.d"
+  "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/math/world.c" "CMakeFiles/TestEngine.dir/src/math/world.c.obj" "gcc" "CMakeFiles/TestEngine.dir/src/math/world.c.obj.d"
+  "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/camera.c" "CMakeFiles/TestEngine.dir/src/render/camera.c.obj" "gcc" "CMakeFiles/TestEngine.dir/src/render/camera.c.obj.d"
   "C:/Users/calvi/OneDrive/Desktop/Personal/TestEngine/src/render/draw.c" "CMakeFiles/TestEngine.dir/src/render/draw.c.obj" "gcc" "CMakeFiles/TestEngine.dir/src/render/draw.c.obj.d"
   )
 

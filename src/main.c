@@ -1,11 +1,14 @@
 #include "main.h"
 
 // TODO:
-// Camera
-// // Render Map Object <<
+// Camera (Lookup best practices)
+// // Camera w2vec and vec2w functions <<
+// // Camera bounds
+// // Render Map Object 
 // // WASD Move Camera
 // // General rendering scripts for camera
 // Entities
+// // Collisions
 // // Fully implement entities
 // // Entity logic
 // // // Spawning
@@ -20,6 +23,7 @@
 // // In-game UI
 // Textures and Sprites
 // // Texture atlas
+// // // Texture/texture atlas editor?
 // // Sprite handling
 // // Sprite animations
 // Audio
@@ -29,14 +33,11 @@ int main(int argc, char* argv[]) {
 
     // Init App
     App app;
-    memset(&app, 0, sizeof(App));
+    memset(&app, 0, sizeof(App)); // Maybe change when spawning entities, or have their own memory
     initApp(&app);
 
     while (app.running) {
         updateApp(&app);
-        // prepareScene(&app);
-        // doInput(&app);
-        // presentScene(&app);
         SDL_Delay(DELAY);
     }
     

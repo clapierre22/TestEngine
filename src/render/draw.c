@@ -28,7 +28,7 @@ void renderFPS(App *app) {
     SDL_SetWindowTitle(app->window, fpsText);
 }
 
-void renderMouse(App *app) {
+void renderMouse(App *app) { // Mouse always rendered last (on top), and at fixed scale
     SDL_Rect mouseRect = {
         app->mouse.position.x - MOUSE_WIDTH / 2,
         app->mouse.position.y - MOUSE_HEIGHT / 2,
@@ -49,15 +49,22 @@ void renderMouse(App *app) {
 }
 
 void renderEntity(App *app, Entity *entity) {
-    if (!entity || entity->type == ENTITY_TYPE_NONE) return;
+    if (
+        !entity 
+        || entity->type == ENTITY_TYPE_NONE
+        // || !withinCamera(&app->camera, entity) TODO
+    ) return;
 
-    SDL_Rect entityRect = {
-        entity->position.x,
-        entity->position.y,
-        (int)entity->size.a,
-        (int)entity->size.b
-    };
+    entity->screenPos.x = WORLD_TO_SCREEN_X(&app->camera, entity->position.x);
+    entity->screenPos.y = WORLD_TO_SCREEN_Y(&app->camera, entity->position.y);
+    entity->screenSize.a = WORLD_TO_SCREEN_W(&app->camera, entity->size.a);
+    entity->screenSize.b = WORLD_TO_SCREEN_H(&app->camera, entity->size.b);
+
+    entity->screenHitbox.x = entity->screenPos.x;
+    entity->screenHitbox.y = entity->screenPos.y;
+    entity->screenHitbox.w = entity->screenSize.a;
+    entity->screenHitbox.h = entity->screenSize.b;
 
     SDL_SetRenderDrawColor(app->renderer, 255, 255, 0, 255); // Yellow for entities
-    SDL_RenderFillRect(app->renderer, &entityRect);
+    SDL_RenderFillRect(app->renderer, &entity->screenHitbox);
 }

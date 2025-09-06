@@ -1,7 +1,7 @@
 #include "app.h"
 
 void initSDL(App *app) {
-    if (SDL_Init(SDL_INIT_VIDEO) < false) {
+    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
         fprintf(stderr, "Could not initialize SDL: %s\n", SDL_GetError());
         exit(EXIT_FAILURE);
     }
@@ -32,19 +32,11 @@ void initSDL(App *app) {
     }
 }
 
-void initMouse(App *app) {
-    Mouse mouse;
-    memset(&mouse, 0, sizeof(Mouse));
-    mouse.position.x = 0;
-    mouse.position.y = 0;
-    mouse.size.a = MOUSE_WIDTH;
-    mouse.size.b = MOUSE_HEIGHT;
-    app->mouse = mouse;
-}
-
 void initApp(App *app) {
     initSDL(app);
     initMouse(app);
+    initCamera(app);
+    setCameraMode(app, CAMERA_MODE_FREE); // Placeholder, camera free moves
     app->running = true;
     app->fps = 0;
     app->lastTime = 0;

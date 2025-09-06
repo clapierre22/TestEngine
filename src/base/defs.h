@@ -27,6 +27,21 @@ typedef enum {
     MOUSE_INACTIVE
 } MouseState;
 
+// Camera
+#define CAMERA_BASE_X SCREEN_WIDTH / 2
+#define CAMERA_BASE_Y SCREEN_HEIGHT / 2
+#define CAMERA_BASE_WIDTH SCREEN_WIDTH
+#define CAMERA_BASE_HEIGHT SCREEN_HEIGHT
+#define CAMERA_BASE_ZOOM 1.0f
+
+#define CAMERA_MOVE_SPEED 300.0f // Pixels per second
+
+typedef enum {
+    CAMERA_MODE_FIXED, // Static position
+    CAMERA_MODE_FOLLOW, // Attach to entity position
+    CAMERA_MODE_FREE // WASD directly controls camera
+} CameraMode;
+
 // Entity
 typedef enum {
     // Default

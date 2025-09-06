@@ -7,6 +7,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 # Add all .c files in src/
 file(GLOB_RECURSE SRC_FILES src/*.c)
 
+# Debug: Print all found source files
+message(STATUS "Found source files:")
+foreach(src_file ${SRC_FILES})
+    message(STATUS "  ${src_file}")
+endforeach()
+
 add_executable(TestEngine ${SRC_FILES})
 
 # Example: Link SDL2 (if installed via package manager)

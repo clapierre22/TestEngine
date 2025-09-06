@@ -4,10 +4,13 @@
 
 #include "base/defs.h"
 #include "base/structs.h"
+#include "base/cleanup.h"
 
 #include "math/delta.h"
-#include "base/cleanup.h"
+
 #include "render/draw.h"
+#include "render/camera.h"
+
 #include "logic/input.h"
 
 void initSDL(App *app);

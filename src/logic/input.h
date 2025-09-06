@@ -5,4 +5,5 @@
 #include "base/defs.h"
 #include "base/structs.h"
 
+void initMouse(App *app);
 void doInput(App *app);
